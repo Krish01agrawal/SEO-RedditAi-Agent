@@ -1,0 +1,29 @@
+{
+  "name": "reddit-bot",
+  "version": "1.0.0",
+  "description": "Reddit automation bot for product SEO increase",
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node main.ts",
+    "dev": "ts-node main.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "reddit",
+    "automation",
+    "bot",
+    "playwright",
+    "seo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.54.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.0",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}

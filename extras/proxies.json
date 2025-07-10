@@ -1,0 +1,13 @@
+
+[
+    {
+      "server": "http://proxy1.example.com:8000",
+      "username": "proxyuser1",
+      "password": "proxypass1"
+    },
+    {
+      "server": "http://proxy2.example.com:8000",
+      "username": "proxyuser2",
+      "password": "proxypass2"
+    }
+  ] 
