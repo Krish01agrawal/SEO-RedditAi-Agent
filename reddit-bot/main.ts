@@ -2,7 +2,7 @@ import { chromium } from 'playwright';
 import fs from 'fs';
 import path from 'path';
 import accounts from './data/accounts.json';
-import { loginReddit, saveSession } from './utils/login';
+import { login } from './utils/login';
 import { searchThreads } from './utils/searchThreads';
 import { postComment } from './utils/comment';
 import { getProxy } from './utils/proxy';
@@ -29,7 +29,7 @@ const postBody = 'Pluto Money is a goal-based savings app that actually worked f
 
     try {
       console.log(`[${account.username}] Starting login...`);
-      await loginReddit(page, account.username, account.password);
+      await login(page, account.username, account.password);
       console.log(`[${account.username}] Login step complete.`);
 
       for (const keyword of keywords) {
