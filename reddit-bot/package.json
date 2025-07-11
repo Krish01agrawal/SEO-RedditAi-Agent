@@ -1,7 +1,7 @@
 {
   "name": "reddit-bot",
   "version": "1.0.0",
-  "description": "Reddit automation bot for product SEO increase",
+  "description": "Reddit automation bot for product SEO increase - Part of RedditAutomation-ProductSEOIncrease project",
   "main": "main.ts",
   "scripts": {
     "start": "ts-node main.ts",

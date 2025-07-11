@@ -5,3 +5,6 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+# Extras directory (contains sensitive data like proxies)
+# extras/
